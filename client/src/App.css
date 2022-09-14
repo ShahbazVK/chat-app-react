@@ -1,0 +1,177 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: rgb(188, 168, 207);
+  }
+.App{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chatlogin{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(116, 86, 143);
+    -webkit-box-shadow: 5px 0px 36px 3px rgba(0,0,0,1);
+-moz-box-shadow: 5px 0px 36px 3px rgba(0,0,0,1);
+box-shadow: 5px 0px 36px 3px rgba(0,0,0,1);
+}
+.chatmessagescontainer{
+    /* background-color: rgb(182, 205, 214); */
+    height: 20rem;
+    width: 20rem;
+    /* padding: 1rem; */
+    overflow-x: hidden;
+    
+    overflow-y: scroll;
+
+}
+::-webkit-scrollbar {
+    width: 4px;  /* Remove scrollbar space */
+    background: rgb(8, 72, 77);  /* Optional: just make scrollbar invisible */
+}
+::-webkit-scrollbar-thumb {
+    background: #e7e0e0;
+}
+.chatmessagescontainer div p{
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+}
+.you p{
+    background-color: rgb(101, 197, 197);
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-end;
+    
+    /* float: left; */
+}
+.me p{
+    background-color: rgb(107, 202, 107);
+    /* display: inline; */
+    /* float: right; */
+    /* justify-content: end;  */
+
+}
+.chat{
+    background-color: rgba(11, 83, 165, 0.527);
+}
+.chatheading > p{
+    /* background-color: aquamarine; */
+    /* display: inline-block; */
+    padding-left: 20px;
+    font-size: 25px;
+}
+.chatheading{
+    background-color: rgba(39, 56, 209, 0.5); 
+    height: 100%; 
+    width: 100%; 
+    border-radius: 12px 12px 0 0;
+}
+.chat input{
+    width: 20rem;
+    height: 2rem;
+    border-radius: 10px;
+}
+.chat button{
+    width: 6rem;
+    height: 2rem;
+    border-radius: 10px;
+}
+
+    .chatlogin{
+        height: 20rem;
+        width: 20rem;
+        border-radius: 12px;
+    }
+    .chatlogin input{
+        width: 15rem;
+        height: 2rem;
+        text-align: center;
+        border-radius: 10px;
+        border-color: 1px solid black;
+    }
+    .chatlogin button{
+        width: 10rem;
+        height: 2.1rem;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .chat{
+        width: 25rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 20px;
+        padding: 0 0 1rem 0;
+        -webkit-box-shadow: 5px 0px 36px 3px rgba(0,0,0,1);
+        -moz-box-shadow: 5px 0px 36px 3px rgba(0,0,0,1);
+        box-shadow: 5px 0px 36px 3px rgba(0,0,0,1);
+    }
+
+    .chatlogin{
+        height: 20rem;
+        width: 20rem;
+        border-radius: 12px;
+    }
+    .chatlogin input{
+        width: 15rem;
+        height: 2rem;
+        text-align: center;
+        border-radius: 10px;
+        border-color: 1px solid black;
+    }
+    .chatlogin button{
+        width: 10rem;
+        height: 2.1rem;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .chat{
+        width: 25rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 20px;
+        padding: 0 0 1rem 0;
+        -webkit-box-shadow: 5px 0px 36px 3px rgba(0,0,0,1);
+        -moz-box-shadow: 5px 0px 36px 3px rgba(0,0,0,1);
+        box-shadow: 5px 0px 36px 3px rgba(0,0,0,1);
+    }
+
+    .chatlogin{
+        height: 20rem;
+        width: 20rem;
+        border-radius: 12px;
+    }
+    .chatlogin input{
+        width: 15rem;
+        height: 2rem;
+        text-align: center;
+        border-radius: 10px;
+        border-color: 1px solid black;
+    }
+    .chatlogin button{
+        width: 10rem;
+        height: 2.1rem;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .chat{
+        width: 25rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 20px;
+        padding: 0 0 1rem 0;
+        -webkit-box-shadow: 5px 0px 36px 3px rgba(0,0,0,1);
+        -moz-box-shadow: 5px 0px 36px 3px rgba(0,0,0,1);
+        box-shadow: 5px 0px 36px 3px rgba(0,0,0,1);
+    }
